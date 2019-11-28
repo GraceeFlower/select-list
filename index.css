@@ -14,36 +14,68 @@ ul, li {
 }
 
 .main-selection {
+  position: relative;
   padding: .5em 0 .15em;
-  margin-bottom: 35px;
   height: 50px;
   width: 362px;
   color: #fff;
   background-color: #eb4d3e;
   font-size: 1.35em;
-  text-align: center;
+}
+
+.select-title {
+  font-size: 1em;
+  display: inline-block;
+  margin: 2px 0 0 30px
 }
 
 .select-btn {
+  position: absolute;
+  top: 28px;
+  left: 300px;
   width: 0;
   height: 0;
-  margin-left: 70px;
-  border: 15px solid;
-  border-color: #fff transparent transparent transparent;
-  vertical-align: -29px;
+  border: 15px solid transparent;
+  border-top-color: #fff;
+}
+
+.select-btn:hover + .select-list{
+  display: block;
 }
 
 .select-list {
+  display: none;
+  position: relative;
+  margin-top: 55px;
+}
+
+.select-list::before {
+  content: "";
+  position: absolute;
+  left: 300px;
+  top: -30px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom-color: #eb4d3e;
+}
+
+ul {
   display: inline-block;
   background-color: #eb4d3e;
   list-style-type: none;
 }
 
 .select-list li {
+  text-align: left;
   height: 50px;
   width: 362px;
-  padding-top: .75em;
+  padding-top: .55em;
   border-bottom: 2px solid #ed7466
+}
+
+.select-list li:last-child {
+  border-bottom: none;
 }
 
 .icon {
@@ -57,7 +89,7 @@ ul, li {
 }
 
 .icon-star {
-  background-position: -43px 17px;
+  background-position: -44px 16px;
 }
 
 .icon-message {
@@ -66,12 +98,7 @@ ul, li {
 
 a {
   text-decoration: none;
-  font-size: 1.25em;
   color: white;
   margin-left: 75px;
   background-color: #eb4d3e;
 }
-
-/* .main-selection:hover + .select-list {
-  display: block;
-} */
