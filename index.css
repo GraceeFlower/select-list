@@ -22,6 +22,8 @@ ul, li {
   background-color: #eb4d3e;
   border-radius: 8px;
   font-size: 1.35em;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 1px;
 }
 
 .select-title {
@@ -69,11 +71,12 @@ ul {
 }
 
 .select-list li {
-  text-align: left;
   height: 50px;
   width: 362px;
   padding-top: .55em;
-  border-bottom: 2px solid #ed7466
+  border-bottom: 2px solid #ed7466;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 1px;
 }
 
 .select-list li:last-child {
