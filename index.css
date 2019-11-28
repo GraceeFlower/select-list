@@ -3,8 +3,9 @@ body {
   padding: 0;
 }
 
-.wrapper {
-  padding: 100px;
+.action-list {
+  margin: 10% 20%;
+  padding: 0;
 }
 
 ul, li {
@@ -33,7 +34,8 @@ ul, li {
 
 .select-btn {
   position: absolute;
-  top: 28px;
+  display: inline-block;
+  top: 25px;
   right: 30px;
   width: 0;
   height: 0;
