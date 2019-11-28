@@ -20,6 +20,7 @@ ul, li {
   width: 362px;
   color: #fff;
   background-color: #eb4d3e;
+  border-radius: 8px;
   font-size: 1.35em;
 }
 
@@ -62,8 +63,9 @@ ul, li {
 
 ul {
   display: inline-block;
-  background-color: #eb4d3e;
   list-style-type: none;
+  border-radius: 8px;
+  background-color: #eb4d3e;
 }
 
 .select-list li {
