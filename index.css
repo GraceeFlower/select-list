@@ -20,13 +20,13 @@ ul, li {
   color: #fff;
   background-color: #eb4d3e;
   border-radius: 8px;
-  font-size: 1.35em;
+  font-size: 27px;
   font-family: 'Oxygen', sans-serif;
   letter-spacing: 1px;
 }
 
 .select-title {
-  font-size: 1em;
+  font-size: 27px;
   display: inline-block;
   margin: 0 30px;
 }
