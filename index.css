@@ -5,7 +5,7 @@ body {
 
 .wrapper {
   margin: 0 auto;
-  padding: 100px;;
+  padding: 100px;
 }
 
 ul, li {
@@ -14,13 +14,23 @@ ul, li {
 }
 
 .main-selection {
-  padding-top: .5em;
+  padding: .5em 0 .15em;
   margin-bottom: 35px;
   height: 50px;
   width: 362px;
   color: #fff;
   background-color: #eb4d3e;
-  font-size: 1.25em;
+  font-size: 1.35em;
+  text-align: center;
+}
+
+.select-btn {
+  width: 0;
+  height: 0;
+  margin-left: 70px;
+  border: 15px solid;
+  border-color: #fff transparent transparent transparent;
+  vertical-align: -29px;
 }
 
 .select-list {
