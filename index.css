@@ -27,9 +27,7 @@ ul, li {
 }
 
 .select-title {
-  font-size: 27px;
-  display: inline-block;
-  margin: 0 35px;
+  padding-left: 30px;
 }
 
 .select-btn {
