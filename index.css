@@ -1,11 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
-}
-
-.action-list {
-  margin: 10% 20%;
-  padding: 0;
+  padding: 10% 20%;
 }
 
 ul, li {
@@ -27,7 +22,7 @@ ul, li {
 }
 
 .select-title {
-  padding-left: 30px;
+  padding-left: 20px;
 }
 
 .select-btn {
