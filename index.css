@@ -15,7 +15,7 @@ ul, li {
 .main-selection {
   position: relative;
   height: 65px;
-  width: 362px;
+  width: 355px;
   line-height: 65px;
   color: #fff;
   background-color: #eb4d3e;
@@ -28,13 +28,13 @@ ul, li {
 .select-title {
   font-size: 27px;
   display: inline-block;
-  margin: 0 30px;
+  margin: 0 35px;
 }
 
 .select-btn {
   position: absolute;
   top: 28px;
-  left: 300px;
+  right: 30px;
   width: 0;
   height: 0;
   border: 15px solid transparent;
@@ -54,8 +54,8 @@ ul, li {
 .select-list::before {
   content: "";
   position: absolute;
-  left: 300px;
   top: -30px;
+  right: 30px;
   width: 0;
   height: 0;
   border: 15px solid transparent;
@@ -71,7 +71,7 @@ ul {
 
 .select-list li {
   height: 65px;
-  width: 362px;
+  width: 355px;
   line-height: 65px;
   border-bottom: 2px solid #ed7466;
   font-family: 'Oxygen', sans-serif;
@@ -84,7 +84,7 @@ ul {
 
 .icon {
   background-image: url(./icon.png);
-  background-repeat:  no-repeat;
+  background-repeat: no-repeat;
   background-size: 150px 100px;
 }
 
